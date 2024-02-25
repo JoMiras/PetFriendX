@@ -16,6 +16,7 @@
 		C70356A62B8A796E009DC808 /* PetFriendXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356A52B8A796E009DC808 /* PetFriendXUITestsLaunchTests.swift */; };
 		C70356B32B8A7BB7009DC808 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356B22B8A7BB7009DC808 /* LoginView.swift */; };
 		C70356B52B8A7FC3009DC808 /* PetPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356B42B8A7FC3009DC808 /* PetPreferences.swift */; };
+		C78168792B8B0D760082B076 /* RecommendedPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78168782B8B0D760082B076 /* RecommendedPets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C70356A52B8A796E009DC808 /* PetFriendXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendXUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C70356B22B8A7BB7009DC808 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C70356B42B8A7FC3009DC808 /* PetPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPreferences.swift; sourceTree = "<group>"; };
+		C78168782B8B0D760082B076 /* RecommendedPets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedPets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		C70356872B8A796D009DC808 /* PetFriendX */ = {
 			isa = PBXGroup;
 			children = (
+				C78168782B8B0D760082B076 /* RecommendedPets.swift */,
 				C70356B22B8A7BB7009DC808 /* LoginView.swift */,
 				C70356B42B8A7FC3009DC808 /* PetPreferences.swift */,
 				C70356882B8A796D009DC808 /* PetFriendXApp.swift */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78168792B8B0D760082B076 /* RecommendedPets.swift in Sources */,
 				C703568B2B8A796D009DC808 /* ContentView.swift in Sources */,
 				C70356B32B8A7BB7009DC808 /* LoginView.swift in Sources */,
 				C70356B52B8A7FC3009DC808 /* PetPreferences.swift in Sources */,
