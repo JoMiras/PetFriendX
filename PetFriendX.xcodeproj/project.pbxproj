@@ -14,6 +14,8 @@
 		C703569A2B8A796E009DC808 /* PetFriendXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356992B8A796E009DC808 /* PetFriendXTests.swift */; };
 		C70356A42B8A796E009DC808 /* PetFriendXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356A32B8A796E009DC808 /* PetFriendXUITests.swift */; };
 		C70356A62B8A796E009DC808 /* PetFriendXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356A52B8A796E009DC808 /* PetFriendXUITestsLaunchTests.swift */; };
+		C70356B32B8A7BB7009DC808 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356B22B8A7BB7009DC808 /* LoginView.swift */; };
+		C70356B52B8A7FC3009DC808 /* PetPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70356B42B8A7FC3009DC808 /* PetPreferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C703569F2B8A796E009DC808 /* PetFriendXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFriendXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70356A32B8A796E009DC808 /* PetFriendXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendXUITests.swift; sourceTree = "<group>"; };
 		C70356A52B8A796E009DC808 /* PetFriendXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C70356B22B8A7BB7009DC808 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C70356B42B8A7FC3009DC808 /* PetPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPreferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		C70356872B8A796D009DC808 /* PetFriendX */ = {
 			isa = PBXGroup;
 			children = (
+				C70356B22B8A7BB7009DC808 /* LoginView.swift */,
+				C70356B42B8A7FC3009DC808 /* PetPreferences.swift */,
 				C70356882B8A796D009DC808 /* PetFriendXApp.swift */,
 				C703568A2B8A796D009DC808 /* ContentView.swift */,
 				C703568C2B8A796E009DC808 /* Assets.xcassets */,
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C703568B2B8A796D009DC808 /* ContentView.swift in Sources */,
+				C70356B32B8A7BB7009DC808 /* LoginView.swift in Sources */,
+				C70356B52B8A7FC3009DC808 /* PetPreferences.swift in Sources */,
 				C70356892B8A796D009DC808 /* PetFriendXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
