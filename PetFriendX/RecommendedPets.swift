@@ -15,7 +15,6 @@ struct RecommendedPetsView: View {
         Pet(name: "Tabby Cat", imageName: "tabby_cat", description: "Tabby cats are known for their distinctive coat patterns and come in various colors.", temperament: "Adaptable", lifestyleRecommendation: "Versatile and suitable for various living environments.")
         ]
     
-    // List is displayed but the butttons currently don't work. 
         
     
     var body: some View {

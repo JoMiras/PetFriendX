@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             if isLoggedIn {
+                RecommendedPetsView()
                 PetPreferencesView()
             } else {
                 LoginView()
@@ -28,3 +29,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
